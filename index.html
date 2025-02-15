@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utthira Kumar - ETL Developer & Data Analyst</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        .parallax-section {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 500px;
+            position: relative;
+        }
+
+        .hero-section {
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/api/placeholder/1920/1080');
+            color: white;
+        }
+
+        .skill-card {
+            transition: transform 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .timeline-item {
+            padding: 20px;
+            border-left: 2px solid #0d6efd;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 25px;
+            width: 20px;
+            height: 20px;
+            background: #0d6efd;
+            border-radius: 50%;
+        }
+
+        .interests-section {
+            background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('/api/placeholder/1920/1080');
+        }
+
+        .nav-link {
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #0d6efd !important;
+        }
+
+        .project-card {
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">UK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="parallax-section hero-section d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-4 mb-4">Utthira Kumar</h1>
+            <h2 class="h3 mb-4">ETL Developer | Data Analyst</h2>
+            <p class="lead">Transforming Data into Insights</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About Me</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead text-center">ETL Developer and Data Analyst with 3+ years of expertise in designing and implementing data integration solutions. Google Cloud Certified Professional with a proven track record of improving data processing efficiency and quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Technical Skills</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card skill-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-database me-2"></i>ETL & Data</h5>
+                            <ul class="list-unstyled">
+                                <li>Informatica PowerCenter</li>
+                                <li>Databricks</li>
+                                <li>Data Warehousing</li>
+                                <li>Data Integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skill-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-code me-2"></i>Programming</h5>
+                            <ul class="list-unstyled">
+                                <li>Python</li>
+                                <li>PySpark</li>
+                                <li>SQL</li>
+                                <li>Unix Shell Scripting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skill-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-cloud me-2"></i>Cloud & Tools</h5>
+                            <ul class="list-unstyled">
+                                <li>Google Cloud Platform</li>
+                                <li>Hadoop</li>
+                                <li>Power BI</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Senior Analyst</h4>
+                    <h5>Thryve Digital Health LLP, Chennai</h5>
+                    <p class="text-muted">June 2021 - Present</p>
+                    <ul>
+                        <li>Lead ETL development reducing processing time by 20%</li>
+                        <li>Designed healthcare data solutions for CAQH and MTM Outcomes</li>
+                        <li>Automated tasks using Shell Scripting and parallel processing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Key Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">GUI Git Automation Tool</h5>
+                            <p class="card-text">Developed a Python-based GUI tool using Tkinter and GitPython, reducing manual effort by 60% in Git workflows.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">IHB Dashboard</h5>
+                            <p class="card-text">Created a Power BI dashboard for monitoring BDM job statuses and project tracking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="parallax-section interests-section text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Interests & Hobbies</h2>
+            <div class="row g-4 text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-book fa-3x mb-3"></i>
+                    <h5>Writing</h5>
+                    <p>Short stories and creative writing</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-music fa-3x mb-3"></i>
+                    <h5>Music</h5>
+                    <p>Playing piano (Beethoven, Chopin, Bach)</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-paint-brush fa-3x mb-3"></i>
+                    <h5>Art</h5>
+                    <p>Watercolor painting & Abstract photography</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>Contact: uk97@gmail.com | Phone: 9751615428</p>
+            <div class="mt-3">
+                <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Navbar background change on scroll
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.querySelector('.navbar').classList.add('bg-dark');
+            } else {
+                document.querySelector('.navbar').classList.remove('bg-dark');
+            }
+        });
+
+        // Animation on scroll
+        window.addEventListener('scroll', function() {
+            const elements = document.querySelectorAll('.skill-card, .project-card, .timeline-item');
+            elements.forEach(element => {
+                const position = element.getBoundingClientRect();
+                if(position.top < window.innerHeight && position.bottom >= 0) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
